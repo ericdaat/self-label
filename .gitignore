@@ -1,0 +1,6 @@
+cifar10
+data
+pseudo
+pseudo3000_alexnet_bs256_hc10-400_nopt100_augT3
+runs
+self-label_models

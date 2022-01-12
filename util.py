@@ -45,7 +45,7 @@ def setup_runtime(seed=0, cuda_dev_id=[0]):
     if torch.cuda.is_available():
         torch.backends.cudnn.enabled = True
         torch.backends.cudnn.benchmark = True
-        torch.backends.cudnn.deterministic = False 
+        torch.backends.cudnn.deterministic = False
     # Fix random seeds
     random.seed(seed)
     np.random.seed(seed)
